@@ -12,7 +12,6 @@ gem 'uglifier'  # Javascript compressor
 gem 'coffee-rails'  # Coffee-script support
 gem 'therubyracer', platforms: :ruby  # Google V8 javascript engine
 gem 'jquery-rails'  # Use jquery as the JavaScript library
-gem 'turbolinks' # Follow links faster
 gem 'jbuilder' # Json for declaring
 gem 'devise' # Authentication local and 3rd party
 gem 'bootstrap-sass' # JS Bootstrap library support
@@ -37,7 +36,6 @@ gem 'bootstrap-modal-rails'
 gem 'paper_trail'  # version control for Document
 gem 'verbs'   # language and verbs - not used for now but I plan to use it in Events /Thomas
 gem 'ice_cube', '0.11.1'     # used to generate event schedules, locked to last known version not to have memory leaks
-gem 'jquery-turbolinks'    #fix for turbolink problem we had with the HOA button and jQuery not loading ??
 gem 'addressable'       # used for uri validation
 gem 'pivotal-tracker-api' # used for Pivotal Tracker API v5
 gem 'exception_notification'
@@ -104,4 +102,3 @@ group :production do
   gem 'rails_12factor'
   gem 'newrelic_rpm' # New Relic analytics
 end
-
